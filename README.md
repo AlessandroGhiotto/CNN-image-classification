@@ -36,7 +36,7 @@ The model is constituted by a convolutional part made of inception blocks, follo
 
 ### Result
 
-Here we can visualize the result. The dashed red bbox is the one predicted by the model, the green one is the true bbox.
+Here we can visualise some results. The dashed red bbox is the one predicted by the model, the green one is the true bbox.
 
 ![classes](https://github.com/AlessandroGhiotto/CNN-image-classification/blob/main/img/3-result1.png)
 

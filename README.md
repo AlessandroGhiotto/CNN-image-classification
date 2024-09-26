@@ -23,6 +23,6 @@ with the corresponding bounding box coordinates.
 
 Here we can take a quick look at the three different classes of the images in the data:
 
-![classes]()
+![classes](https://github.com/AlessandroGhiotto/CNN-image-classification/blob/main/img/1-classes.png)
 
 ### Model

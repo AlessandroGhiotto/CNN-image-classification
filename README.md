@@ -26,3 +26,18 @@ Here we can take a quick look at the three different classes of the images in th
 ![classes](https://github.com/AlessandroGhiotto/CNN-image-classification/blob/main/img/1-classes.png)
 
 ### Model
+
+The model is constituted by a convolutional part made of inception blocks, followed by two classification heads. The two heads have the following output layers:
+
+- _'output_label'_ : `Dense(n_classes, activation='softmax')` $\rightarrow$ probability distribution over the $3$ classes
+- _'output_bbox'_ : `Dense(4, activation='sigmoid')` $\rightarrow$ predict a value in $[0, 1]$ for each coordinate of the corners of the bounding box
+
+![classes](https://github.com/AlessandroGhiotto/CNN-image-classification/blob/main/img/2-model.png)
+
+### Result
+
+Here we can visualize the result. The dashed red bbox is the one predicted by the model, the green one is the true bbox.
+
+![classes](https://github.com/AlessandroGhiotto/CNN-image-classification/blob/main/img/3-result1.png)
+
+![classes](https://github.com/AlessandroGhiotto/CNN-image-classification/blob/main/img/3-result2.png)
